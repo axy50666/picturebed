@@ -1,0 +1,340 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.axyshark_parahelicoprion_mariosuarezi.attack": {
+			"animation_length": 0.7917,
+			"bones": {
+				"mouth": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5833": [-20, 0, 0],
+						"0.7917": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.move": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body" : {
+					"rotation" : [ "query.target_x_rotation - 2.865 + (-2.865 * math.cos(query.life_time * 343.8))", "query.target_y_rotation - 30.0", 0.0 ],
+					"position": [0, -20, 0],
+					"scale": 2.16
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 10, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -5, 0],
+						"1.125": [0, 7.19, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.5": [0, -14.16, 0],
+						"0.7083": [0, -19.22, 0],
+						"1.2917": [0, 7.5, 0],
+						"1.5": [0, 15, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, 2.5, 0],
+						"0.375": [0, 15, 0],
+						"0.875": [0, -20, 0],
+						"1.5": [0, 2.5, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.375": [0, 0, 0],
+						"0.7917": [0, -15, 0],
+						"1.5": [0, 10, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.tright": {
+			"animation_length": 0.75,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 10, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -20, 0],
+						"0.75": [0, -9.12, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, 5, 0],
+						"0.5": [0, -19.16, 0],
+						"0.7083": [0, -19.22, 0],
+						"0.75": [0, -17.31, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, 2.5, 0],
+						"0.375": [0, 15, 0],
+						"0.5417": [0, -1.67, 0],
+						"0.75": [0, -13.13, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.375": [0, 0, 0],
+						"0.75": [0, -13.5, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, -5, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.right": {
+			"loop": true,
+			"animation_length": 0.01,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, 10, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, -9.12, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, -17.31, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, -13.13, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, -13.5, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, -5, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.rightrt": {
+			"animation_length": 0.75,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, 10, 0],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, -9.12, 0],
+						"0.375": [0, 7.19, 0],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, -17.31, 0],
+						"0.5417": [0, 7.5, 0],
+						"0.75": [0, 5, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, -13.13, 0],
+						"0.125": [0, -20, 0],
+						"0.75": [0, 2.5, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, -13.5, 0],
+						"0.0417": [0, -15, 0],
+						"0.75": [0, 10, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, -5, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.tleft": {
+			"animation_length": 0.75,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, -10, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 20, 0],
+						"0.75": [0, 9.12, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, -5, 0],
+						"0.5": [0, 19.16, 0],
+						"0.7083": [0, 19.22, 0],
+						"0.75": [0, 17.31, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, -2.5, 0],
+						"0.375": [0, -15, 0],
+						"0.5417": [0, 1.67, 0],
+						"0.75": [0, 13.13, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, -15, 0],
+						"0.375": [0, 0, 0],
+						"0.75": [0, 13.5, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 5, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.left": {
+			"loop": true,
+			"animation_length": 0.01,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, -10, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, 9.12, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, 17.31, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, 13.13, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 13.5, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 5, 0]
+					}
+				}
+			}
+		},
+		"animation.axyshark_parahelicoprion_mariosuarezi.leftrt": {
+			"animation_length": 0.75,
+			"bones": {
+				"body": {
+					"scale": 2.07
+				},
+				"bodyhead": {
+					"rotation": {
+						"0.0": [0, -10, 0],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"bodymid": {
+					"rotation": {
+						"0.0": [0, 9.12, 0],
+						"0.375": [0, -7.19, 0],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"bodystomach": {
+					"rotation": {
+						"0.0": [0, 17.31, 0],
+						"0.5417": [0, -7.5, 0],
+						"0.75": [0, 5, 0]
+					}
+				},
+				"bodyback": {
+					"rotation": {
+						"0.0": [0, 13.13, 0],
+						"0.125": [0, 20, 0],
+						"0.75": [0, 2.5, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 13.5, 0],
+						"0.0417": [0, 15, 0],
+						"0.75": [0, 10, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, -5, 0]
+					}
+				}
+			}
+		}
+	}
+}
